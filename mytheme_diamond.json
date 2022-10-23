@@ -21,7 +21,7 @@
         {
           "background": "#9fc5e8",
           "foreground": "#ffffff",
-          "leading_diamond": "<transparent,#01579B>\ue0b0</>",
+          "leading_diamond": "<transparent,#9fc5e8>\ue0b0</>",
           "properties": {
             "folder_icon": "\uf6d7",
             "folder_separator_icon": "<transparent> \ue0bd </>",
@@ -64,7 +64,7 @@
         {
           "background": "#b6d7a8",
           "foreground": "#ffffff",
-          "leading_diamond": "<transparent,#49404f>\ue0b0</>",
+          "leading_diamond": "<transparent,#b6d7a8>\ue0b0</>",
           "properties": {
             "style": "dallas",
             "threshold": 0
@@ -81,30 +81,6 @@
           "style": "powerline",
           "template": "<transparent> \uf12a</> {{ .Meaning }} ",
           "type": "exit"
-        }
-      ],
-      "type": "prompt"
-    },
-    {
-      "alignment": "right",
-      "segments": [
-        {
-          "background": "#f6b26b",
-          "foreground": "#ffffff",
-          "leading_diamond": "\ue0c5",
-          "style": "diamond",
-          "template": "  {{ .UserName }}<transparent> / </>{{ .HostName }}",
-          "type": "session"
-        },
-        {
-          "background": "#f6b26b",
-          "foreground": "#ffffff",
-          "properties": {
-            "time_format": "15:04:05"
-          },
-          "style": "plain",
-          "template": "<transparent> \ue0ba\ue0bc </>{{ .CurrentDate | date .Format }} ",
-          "type": "time"
         }
       ],
       "type": "prompt"
