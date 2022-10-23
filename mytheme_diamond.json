@@ -19,7 +19,7 @@
           "type": "os"
         },
         {
-          "background": "#01579B",
+          "background": "#9fc5e8",
           "foreground": "#ffffff",
           "leading_diamond": "<transparent,#01579B>\ue0b0</>",
           "properties": {
@@ -38,13 +38,13 @@
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
           "foreground": "#ffffff",
-          "background": "#ad90ec",
+          "background": "#d5a6bd",
           "properties": {
             "prefix": " \uE235 "
           }
         },
         {
-          "background": "#00C853",
+          "background": "#ffe599",
           "background_templates": [
             "{{ if or (.Working.Changed) (.Staging.Changed) }}#FFEB3B{{ end }}",
             "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#FFCC80{{ end }}",
@@ -62,7 +62,7 @@
           "type": "git"
         },
         {
-          "background": "#49404f",
+          "background": "#b6d7a8",
           "foreground": "#ffffff",
           "leading_diamond": "<transparent,#49404f>\ue0b0</>",
           "properties": {
@@ -89,16 +89,16 @@
       "alignment": "right",
       "segments": [
         {
-          "background": "#29315A",
-          "foreground": "#43CCEA",
+          "background": "#f6b26b",
+          "foreground": "#ffffff",
           "leading_diamond": "\ue0c5",
           "style": "diamond",
           "template": "  {{ .UserName }}<transparent> / </>{{ .HostName }}",
           "type": "session"
         },
         {
-          "background": "#29315A",
-          "foreground": "#3EC669",
+          "background": "#f6b26b",
+          "foreground": "#ffffff",
           "properties": {
             "time_format": "15:04:05"
           },
